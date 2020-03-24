@@ -545,6 +545,14 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <instance>default</instance>
         </interface>
   </hal>
+  <hal format="hidl">
+    <name>vendor.dolby.hardware.dms</name>
+    <version>1.0</version>
+    <interface>
+        <name>IDms</name>
+        <instance>default</instance>
+    </interface>
+    </hal>
   <hal format="hidl" optional="true">
         <name>vendor.qti.hardware.improvetouch.blobmanager</name>
         <version>1.0</version>
